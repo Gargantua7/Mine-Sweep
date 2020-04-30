@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.game;
+package pers.hanami.MineSweep.game;
 
 public class Mine {
 

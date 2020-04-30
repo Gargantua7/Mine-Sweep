@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.game;
+package pers.hanami.MineSweep.game;
 
 
 import java.util.ArrayList;

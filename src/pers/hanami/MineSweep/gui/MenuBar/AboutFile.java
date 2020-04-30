@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.gui.MenuBar;
+package pers.hanami.MineSweep.gui.MenuBar;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -6,15 +6,15 @@ import java.awt.event.ActionListener;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 
-import com.hanami.MineSweep.gui.MyDialog;
-import com.hanami.MineSweep.gui.MyFont;
+import pers.hanami.MineSweep.gui.MyDialog;
+import pers.hanami.MineSweep.gui.MyFont;
 
 @SuppressWarnings("serial")
 public class AboutFile extends JMenu implements ActionListener{
 
 	JMenuItem inf, up;
 	String releaseNote = "<html><body>"
-			+ "<h1>Release Note</h1>"
+			+ "<h1>Update Note</h1>"
 			+ "<h2>V1.0 Alpha 200211.01</h2>"
 			+ "<p align=\"left\">"
 			+ "- Enter an invalid value (Non-Integer) will<br>"
@@ -59,7 +59,7 @@ public class AboutFile extends JMenu implements ActionListener{
 		setFont(MyFont.FONTS);
 		
 		inf = new JMenuItem("Information");
-		up = new JMenuItem("Release Note");
+		up = new JMenuItem("Update Note");
 		
 		inf.setFont(MyFont.FONTS);
 		up.setFont(MyFont.FONTS);

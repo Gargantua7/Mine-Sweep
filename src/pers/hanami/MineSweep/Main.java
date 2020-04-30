@@ -1,6 +1,6 @@
-package com.hanami.MineSweep;
+package pers.hanami.MineSweep;
 
-import com.hanami.MineSweep.gui.MainFrame;
+import pers.hanami.MineSweep.gui.MainFrame;
 
 public class Main {
 

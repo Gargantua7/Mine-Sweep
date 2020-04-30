@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.gui;
+package pers.hanami.MineSweep.gui;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -10,8 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import com.hanami.MineSweep.Main;
-import com.hanami.MineSweep.game.Map;
+import pers.hanami.MineSweep.Main;
+import pers.hanami.MineSweep.game.Map;
 
 
 @SuppressWarnings("serial")
@@ -33,18 +33,18 @@ public class Start extends JPanel implements ActionListener{
 		last.fill = GridBagConstraints.BOTH;
 		last.gridwidth = GridBagConstraints.REMAINDER;
 		
-		r = new myLabel("Row :", gridBagLayout, first);
-		c = new myLabel("Column :", gridBagLayout, first);
-		m = new myLabel("Mines :", gridBagLayout, first);
+		r = new MyLabel("Row :", gridBagLayout, first);
+		c = new MyLabel("Column :", gridBagLayout, first);
+		m = new MyLabel("Mines :", gridBagLayout, first);
 		
-		row = new myText("", gridBagLayout, last);
-		column = new myText("", gridBagLayout, last);
-		mines = new myText("", gridBagLayout, last);
+		row = new MyText("", gridBagLayout, last);
+		column = new MyText("", gridBagLayout, last);
+		mines = new MyText("", gridBagLayout, last);
 		
-		easy = new myButton("EASY", gridBagLayout, first);
-		mid = new myButton("MIDDLE", gridBagLayout, first);
-		hard = new myButton("HARD", gridBagLayout, last);
-		start = new myButton("Game Start!", gridBagLayout, last);
+		easy = new MyButton("EASY", gridBagLayout, first);
+		mid = new MyButton("MIDDLE", gridBagLayout, first);
+		hard = new MyButton("HARD", gridBagLayout, last);
+		start = new MyButton("Game Start!", gridBagLayout, last);
 		
 		easy.addActionListener(this);
 		mid.addActionListener(this);
@@ -110,8 +110,8 @@ public class Start extends JPanel implements ActionListener{
 }
 
 @SuppressWarnings("serial")
-class myLabel extends JLabel{
-	public myLabel(String s, GridBagLayout g, GridBagConstraints c) {
+class MyLabel extends JLabel{
+	public MyLabel(String s, GridBagLayout g, GridBagConstraints c) {
 		setText(s);
 		setFont(MyFont.FONT);
 		g.setConstraints(this, c);
@@ -119,8 +119,8 @@ class myLabel extends JLabel{
 }
 
 @SuppressWarnings("serial")
-class myText extends JTextField{
-	public myText(String s, GridBagLayout g, GridBagConstraints c) {
+class MyText extends JTextField{
+	public MyText(String s, GridBagLayout g, GridBagConstraints c) {
 		setText(s);
 		setFont(MyFont.FONT);
 		g.setConstraints(this, c);
@@ -128,8 +128,8 @@ class myText extends JTextField{
 }
 
 @SuppressWarnings("serial")
-class myButton extends JButton{
-	public myButton(String s, GridBagLayout g, GridBagConstraints c) {
+class MyButton extends JButton{
+	public MyButton(String s, GridBagLayout g, GridBagConstraints c) {
 		setText(s);
 		setFont(MyFont.FONT);
 		setBackground(MyFont.GROUND);

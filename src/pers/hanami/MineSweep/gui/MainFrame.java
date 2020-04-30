@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.gui;
+package pers.hanami.MineSweep.gui;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
@@ -6,7 +6,7 @@ import java.awt.CardLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import com.hanami.MineSweep.gui.MenuBar.Menu;
+import pers.hanami.MineSweep.gui.MenuBar.Menu;
 
 @SuppressWarnings("serial")
 public class MainFrame extends JFrame{

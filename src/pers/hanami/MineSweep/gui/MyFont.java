@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.gui;
+package pers.hanami.MineSweep.gui;
 
 import java.awt.Color;
 import java.awt.Font;

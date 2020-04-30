@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.gui.MenuBar;
+package pers.hanami.MineSweep.gui.MenuBar;
 
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 
-import com.hanami.MineSweep.Main;
-import com.hanami.MineSweep.gui.MyFont;
+import pers.hanami.MineSweep.Main;
+import pers.hanami.MineSweep.gui.MyFont;
 
 @SuppressWarnings("serial")
 public class FileMenu extends JMenu implements ActionListener{

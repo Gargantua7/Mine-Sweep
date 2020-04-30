@@ -1,4 +1,4 @@
-package com.hanami.MineSweep.gui.MenuBar;
+package pers.hanami.MineSweep.gui.MenuBar;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
