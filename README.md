@@ -1,5 +1,5 @@
-#Mine-Sweep
-######[HANAMI ( HANAMI233 )](https://www.github.com/HANAMI233)
+# Mine-Sweep
+###### [HANAMI ( HANAMI233 )](https://www.github.com/HANAMI233)
 
 ***
 
@@ -9,7 +9,7 @@ Language|Java
 Version|1.8.0_231
 
 ***
-##File Structure
+## File Structure
 - **pers.hanami.MineSweep**
     - Main.java
     - **game**
