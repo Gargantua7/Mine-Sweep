@@ -4,10 +4,12 @@
 ***
 
 ![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![Version](https://img.shields.io/badge/Version-1.8.0__231-yellow)
+![Java Version](https://img.shields.io/badge/Version-1.8.0__231-yellow)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/master)
 ![Version](https://img.shields.io/badge/Version-V1.0%20Alpha%20200211.01-blue)
+
 ***
+
 ## File Structure
 - **pers.gargantua.MineSweep**
     - [Main.java](src/pers/gargantua/mine_sweep/Main.java)
