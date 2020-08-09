@@ -1,13 +1,14 @@
-#Mine-Sweep 
+# Mine-Sweep 
 ###### [Gargantua ( Gargantua7 )](https://www.github.com/Gargantua7)
 
 ***
 
 ![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/Kotlin)
 ![JVM Version](https://img.shields.io/badge/JVM%20Version-1.8.0__231-yellow)
-
-##File Structure
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/Kotlin)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Gargantua7/Mine-Sweep)
+***
+## File Structure
 - **pers.gargantua.mine_sweep**
     - [MainFrame.kt](src/pers/gargantua/mine_sweep/MainFrame.kt)
         - Main function
