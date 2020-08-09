@@ -1,6 +1,6 @@
-package pers.hanami.MineSweep;
+package pers.gargantua.mine_sweep;
 
-import pers.hanami.MineSweep.gui.MainFrame;
+import pers.gargantua.mine_sweep.gui.MainFrame;
 
 public class Main {
 

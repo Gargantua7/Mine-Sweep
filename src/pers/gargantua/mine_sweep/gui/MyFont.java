@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui;
+package pers.gargantua.mine_sweep.gui;
 
 import java.awt.Color;
 import java.awt.Font;

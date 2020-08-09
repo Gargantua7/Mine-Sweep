@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui;
+package pers.gargantua.mine_sweep.gui;
 
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
@@ -6,7 +6,7 @@ import java.awt.CardLayout;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-import pers.hanami.MineSweep.gui.MenuBar.Menu;
+import pers.gargantua.mine_sweep.gui.MenuBar.Menu;
 
 @SuppressWarnings("serial")
 public class MainFrame extends JFrame{

@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui.MenuBar;
+package pers.gargantua.mine_sweep.gui.MenuBar;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;

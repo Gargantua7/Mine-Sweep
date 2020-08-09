@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui.MenuBar;
+package pers.gargantua.mine_sweep.gui.MenuBar;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -6,8 +6,8 @@ import java.awt.event.ActionListener;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 
-import pers.hanami.MineSweep.gui.MyDialog;
-import pers.hanami.MineSweep.gui.MyFont;
+import pers.gargantua.mine_sweep.gui.MyFont;
+import pers.gargantua.mine_sweep.gui.MyDialog;
 
 @SuppressWarnings("serial")
 public class AboutFile extends JMenu implements ActionListener{

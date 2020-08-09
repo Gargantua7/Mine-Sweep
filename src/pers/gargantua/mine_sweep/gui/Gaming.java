@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui;
+package pers.gargantua.mine_sweep.gui;
 
 import java.awt.Color;
 import java.awt.GridLayout;
@@ -9,9 +9,9 @@ import java.util.ArrayList;
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
-import pers.hanami.MineSweep.Main;
-import pers.hanami.MineSweep.game.Lists;
-import pers.hanami.MineSweep.game.Map;
+import pers.gargantua.mine_sweep.Main;
+import pers.gargantua.mine_sweep.game.Map;
+import pers.gargantua.mine_sweep.game.Lists;
 
 @SuppressWarnings("serial")
 public class Gaming extends JPanel implements MouseListener {

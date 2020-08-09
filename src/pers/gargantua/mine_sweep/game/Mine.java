@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.game;
+package pers.gargantua.mine_sweep.game;
 
 public class Mine {
 

@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui;
+package pers.gargantua.mine_sweep.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -11,7 +11,7 @@ import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 
-import pers.hanami.MineSweep.Main;
+import pers.gargantua.mine_sweep.Main;
 
 @SuppressWarnings("serial")
 public class MyDialog extends JDialog implements ActionListener{

@@ -1,4 +1,4 @@
-package pers.hanami.MineSweep.gui;
+package pers.gargantua.mine_sweep.gui;
 
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -10,8 +10,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import pers.hanami.MineSweep.Main;
-import pers.hanami.MineSweep.game.Map;
+import pers.gargantua.mine_sweep.game.Map;
+import pers.gargantua.mine_sweep.Main;
 
 
 @SuppressWarnings("serial")
