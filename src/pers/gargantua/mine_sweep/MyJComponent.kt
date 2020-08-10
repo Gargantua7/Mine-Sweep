@@ -58,7 +58,7 @@ class MyDialog(title: String = "Topic", context: String, width: Int = 200, heigh
         add(button, BorderLayout.SOUTH)
         this.title = title
         isModal = true
-        isResizable = true
+        isResizable = false
         setSize(width, height)
         setLocationRelativeTo(null)
         isVisible = true

@@ -74,6 +74,15 @@ object Start : JPanel() {
         }
     }
 
+    private var isFirstInit = true
+
+    fun init(): Start? {
+        return if(isFirstInit) {
+            isFirstInit = false
+            initialize()
+        } else null
+    }
+
     fun initialize(): Start {
         layout = gridBagLayout
 

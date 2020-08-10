@@ -10,9 +10,18 @@ import javax.swing.JPanel
  **/
 object Gaming : JPanel(), MouseListener {
 
+    private var isFirstInit = true
+
     private val gridLayout = GridLayout()
 
-    fun initialize(): Gaming {
+    fun init(): Gaming {
+        return if(isFirstInit) {
+            isFirstInit = false
+            initialize()
+        } else this
+    }
+
+    private fun initialize(): Gaming {
         layout = gridLayout
         return this
     }

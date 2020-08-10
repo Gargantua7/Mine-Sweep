@@ -22,18 +22,19 @@ object MainFrame : JFrame() {
     fun showFrame() {
         gamePanel.apply {
             layout = BorderLayout()
-            add(Gaming.initialize(), BorderLayout.CENTER)
+            add(Gaming.init(), BorderLayout.CENTER)
             add(StaBar.initialize(), BorderLayout.SOUTH)
         }
 
         mainPanel.apply {
             layout = cardLayout
-            add("start", Start.initialize())
+            add("start", Start.init())
             add("gaming", gamePanel)
         }
 
         layout = BorderLayout()
 
+        add(Menu.init(), BorderLayout.NORTH)
         add(mainPanel, BorderLayout.CENTER)
 
         title = "Mine Sweep"

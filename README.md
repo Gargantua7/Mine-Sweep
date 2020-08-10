@@ -1,4 +1,4 @@
-# Mine-Sweep 
+# Mine-Sweep Kotlin Rebuild Edition
 ###### [Gargantua ( Gargantua7 )](https://www.github.com/Gargantua7)
 
 ***
