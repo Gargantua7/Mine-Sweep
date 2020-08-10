@@ -22,8 +22,8 @@ object Menu : JMenuBar() {
     }
 
     private fun initialize(): Menu {
-        add(FileMenu.initialize())
-        add(AboutMenu.initialize())
+        add(FileMenu.init())
+        add(AboutMenu.init())
         return this
     }
 }
@@ -39,7 +39,7 @@ object FileMenu : JMenu("File") {
         } else this
     }
 
-    fun initialize(): FileMenu {
+    private fun initialize(): FileMenu {
         font = MyStyle.FONT_S
         add(JMenuItem("New Game").apply {
             font = MyStyle.FONT_S
@@ -72,7 +72,7 @@ object AboutMenu : JMenu("About") {
         } else this
     }
 
-    fun initialize(): AboutMenu {
+    private fun initialize(): AboutMenu {
         font = MyStyle.FONT_S
         add(JMenuItem("Release Note").apply {
             font = MyStyle.FONT_S
