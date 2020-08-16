@@ -40,11 +40,10 @@ object StaBar : JPanel() {
         }.start()
     }
 
-    fun initialize(): StaBar {
+    init {
         layout = GridLayout(1, 3)
         add(time)
         add(mine)
-        return this
     }
 
     fun stop() {

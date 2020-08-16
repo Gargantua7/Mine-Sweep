@@ -10,7 +10,7 @@ import javax.swing.JPanel
  * @author Gargantua丶
  **/
 fun main() {
-    MainFrame.showFrame()
+    MainFrame
 }
 
 object MainFrame : JFrame() {
@@ -19,22 +19,22 @@ object MainFrame : JFrame() {
     private val gamePanel: JPanel = JPanel()
     val cardLayout = CardLayout()
 
-    fun showFrame() {
+    init {
         gamePanel.apply {
             layout = BorderLayout()
-            add(Gaming.init(), BorderLayout.CENTER)
-            add(StaBar.initialize(), BorderLayout.SOUTH)
+            add(Gaming, BorderLayout.CENTER)
+            add(StaBar, BorderLayout.SOUTH)
         }
 
         mainPanel.apply {
             layout = cardLayout
-            add("start", Start.init())
+            add("start", Start)
             add("gaming", gamePanel)
         }
 
         layout = BorderLayout()
 
-        add(Menu.init(), BorderLayout.NORTH)
+        add(Menu, BorderLayout.NORTH)
         add(mainPanel, BorderLayout.CENTER)
 
         title = "Mine Sweep"

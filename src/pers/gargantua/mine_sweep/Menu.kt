@@ -12,34 +12,15 @@ import kotlin.system.exitProcess
  **/
 object Menu : JMenuBar() {
 
-    private var isFirstInit = true
-
-    fun init(): Menu {
-        return if (isFirstInit) {
-            isFirstInit = false
-            initialize()
-        } else this
-    }
-
-    private fun initialize(): Menu {
-        add(FileMenu.init())
-        add(AboutMenu.init())
-        return this
+    init {
+        add(FileMenu)
+        add(AboutMenu)
     }
 }
 
 object FileMenu : JMenu("File") {
 
-    private var isFirstInit = true
-
-    fun init(): FileMenu {
-        return if (isFirstInit) {
-            isFirstInit = false
-            initialize()
-        } else this
-    }
-
-    private fun initialize(): FileMenu {
+    init {
         font = MyStyle.FONT_S
         add(JMenuItem("New Game").apply {
             font = MyStyle.FONT_S
@@ -57,22 +38,12 @@ object FileMenu : JMenu("File") {
                 exitProcess(0)
             }
         })
-        return this
     }
 }
 
 object AboutMenu : JMenu("About") {
 
-    private var isFirstInit = true
-
-    fun init(): AboutMenu {
-        return if (isFirstInit) {
-            isFirstInit = false
-            initialize()
-        } else this
-    }
-
-    private fun initialize(): AboutMenu {
+    init {
         font = MyStyle.FONT_S
         add(JMenuItem("Release Note").apply {
             font = MyStyle.FONT_S
@@ -97,6 +68,5 @@ object AboutMenu : JMenu("About") {
                 )
             }
         })
-        return this
     }
 }

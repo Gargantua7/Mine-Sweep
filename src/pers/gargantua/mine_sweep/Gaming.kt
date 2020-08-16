@@ -10,20 +10,10 @@ import javax.swing.JPanel
  **/
 object Gaming : JPanel(), MouseListener {
 
-    private var isFirstInit = true
-
     private val gridLayout = GridLayout()
 
-    fun init(): Gaming {
-        return if(isFirstInit) {
-            isFirstInit = false
-            initialize()
-        } else this
-    }
-
-    private fun initialize(): Gaming {
+    init {
         layout = gridLayout
-        return this
     }
 
     fun start() {
@@ -44,7 +34,7 @@ object Gaming : JPanel(), MouseListener {
     private fun superKnock(button: Ground) {
         if (button.text != "") return
         val around = button.around
-        button.setNor(around)
+        button.setNor()
         if (around == 0) {
             val r = button.r
             val c = button.c

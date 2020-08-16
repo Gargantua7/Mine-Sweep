@@ -22,11 +22,11 @@ class Ground(val r: Int, val c: Int, var isMine: Boolean = false, var around: In
         background = MyStyle.F
     }
 
-    fun setNor(n: Int) {
-        if (n == 0)
+    fun setNor() {
+        if (around == 0)
             background = MyStyle.ZERO
-        text = n.toString()
-        foreground = MyStyle.NUMBER[n]
+        text = around.toString()
+        foreground = MyStyle.NUMBER[around]
     }
 
     fun setQue() {
