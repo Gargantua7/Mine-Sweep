@@ -13,6 +13,10 @@
     - [MainFrame.java](src/pers/gargantua/mine_sweep/MainFrame.java)
         - Main function
         - MainFrame
+    - [Menu.java](src/pers/gargantua/mine_sweep/Menu.java)
+        - Menu
+        - FileMenu
+        - AboutFile
     - [Start.java](src/pers/gargantua/mine_sweep/Start.java)
     - [Gaming.java](src/pers/gargantua/mine_sweep/Gaming.java)
     - [MyJComponent.java](src/pers/gargantua/mine_sweep/MyJComponent.java)
@@ -21,8 +25,6 @@
         - MyButton
         - MyStyle
     - [Config.java](src/pers/gargantua/mine_sweep/Config.java)
-        - Config
-        - PreSet
     - [Maps.java](src/pers/gargantua/mine_sweep/Maps.java)
     - [Ground.java](src/pers/gargantua/mine_sweep/Ground.java)
     - [StaBar.java](src/pers/gargantua/mine_sweep/StaBar.java)
