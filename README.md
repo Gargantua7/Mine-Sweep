@@ -1,39 +1,29 @@
-# Mine-Sweep
+# Mine-Sweep Java Edition
 ###### [Gargantua ( Gargantua7 )](https://www.github.com/Gargantua7)
 
 ***
 
-![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![Java Version](https://img.shields.io/badge/Version-1.8.0__231-yellow)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/master)
-![Version](https://img.shields.io/badge/Version-V1.0%20Alpha%20200211.01-blue)
-
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![JVM Version](https://img.shields.io/badge/JVM%20Version-1.8.0__231-yellow)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/Kotlin)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Gargantua7/Mine-Sweep)
 ***
-
 ## File Structure
-- **pers.gargantua.MineSweep**
-    - [Main.java](src/pers/gargantua/mine_sweep/Main.java)
-    - **game**
-        - [Lists.java](src/pers/gargantua/mine_sweep/game/Lists.java)
-        - [Map.java](src/pers/gargantua/mine_sweep/game/Map.java)
-        - [Mine.java](src/pers/gargantua/mine_sweep/game/Mine.java)
-    - **gui**
-        - [MainFrame.java](src/pers/gargantua/mine_sweep/gui/MainFrame.java)
-        - [Start.java](src/pers/gargantua/mine_sweep/gui/Start.java)
-            - Start
-            - MyButton
-            - MyLabel
-            - MyText
-        - [Gaming.java](src/pers/gargantua/mine_sweep/gui/Gaming.java)
-            - Gaming
-            - MyButtonS
-        - [MyDialog.java](src/pers/gargantua/mine_sweep/gui/MyDialog.java)
-        - [MyFont.java](src/pers/gargantua/mine_sweep/gui/MyFont.java)
-        - [NumColor.java](src/pers/gargantua/mine_sweep/gui/NumColor.java)
-        - [StaBar.java](src/pers/gargantua/mine_sweep/gui/StaBar.java)
-        - **MenuBar**
-            - [Menu.java](src/pers/gargantua/mine_sweep/gui/MenuBar/Menu.java)
-            - [FileMenu.java](src/pers/gargantua/mine_sweep/gui/MenuBar/FileMenu.java)
-            - [AboutMenu.java](src/pers/gargantua/mine_sweep/gui/MenuBar/AboutFile.java)
-    - README.md
-    
+- **pers.gargantua.mine_sweep**
+    - [MainFrame.java](src/pers/gargantua/mine_sweep/MainFrame.java)
+        - Main function
+        - MainFrame
+    - [Start.java](src/pers/gargantua/mine_sweep/Start.java)
+    - [Gaming.java](src/pers/gargantua/mine_sweep/Gaming.java)
+    - [MyJComponent.java](src/pers/gargantua/mine_sweep/MyJComponent.java)
+        - MyLabel
+        - MyText
+        - MyButton
+        - MyStyle
+    - [Config.java](src/pers/gargantua/mine_sweep/Config.java)
+        - Config
+        - PreSet
+    - [Maps.java](src/pers/gargantua/mine_sweep/Maps.java)
+    - [Ground.java](src/pers/gargantua/mine_sweep/Ground.java)
+    - [StaBar.java](src/pers/gargantua/mine_sweep/StaBar.java)
+- README.md
