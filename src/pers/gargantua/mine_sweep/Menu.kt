@@ -66,8 +66,6 @@ object AboutMenu : JMenu("About") {
                         }
                         dataInputStream.close()
                         fileOutputStream.close()
-                    } catch (e: MalformedURLException) {
-                        e.printStackTrace()
                     } catch (e: IOException) {
                         e.printStackTrace()
                     }
