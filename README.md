@@ -5,7 +5,7 @@
 
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![JVM Version](https://img.shields.io/badge/JVM%20Version-1.8.0__231-yellow)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/Kotlin)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Gargantua7/Mine-Sweep/master)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/Gargantua7/Mine-Sweep)
 ***
 ## File Structure
