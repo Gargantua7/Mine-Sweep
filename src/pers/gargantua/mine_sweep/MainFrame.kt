@@ -9,11 +9,13 @@ import javax.swing.JPanel
 /**
  * @author Gargantua丶
  **/
-fun main() {
-    MainFrame
-}
 
 object MainFrame : JFrame() {
+
+    @JvmStatic
+    fun main(args: Array<String>) {
+        MainFrame
+    }
 
     val mainPanel: JPanel = JPanel()
     private val gamePanel: JPanel = JPanel()

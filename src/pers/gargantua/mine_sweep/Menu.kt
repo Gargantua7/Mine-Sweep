@@ -1,11 +1,17 @@
 package pers.gargantua.mine_sweep
 
 import java.awt.Color
+import java.io.DataInputStream
 import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
+import java.net.MalformedURLException
+import java.net.URL
 import javax.swing.JMenu
 import javax.swing.JMenuBar
 import javax.swing.JMenuItem
 import kotlin.system.exitProcess
+
 
 /**
  * @author Gargantua丶
@@ -48,9 +54,36 @@ object AboutMenu : JMenu("About") {
         add(JMenuItem("Release Note").apply {
             font = MyStyle.FONT_S
             addActionListener {
-                MyDialog("Release Note",
-                    File("src/pers/gargantua/mine_sweep/Release Note.html").readText(),
-                    400, 300, false)
+                if (MainFrame::class.java.getResource("").protocol == "jar") {
+                    val file = File("Release Note.html")
+                    try {
+                        val url = URL("https://gargantua7.club/Project/Mine-Sweep-Kotlin-Release-Note.html")
+                        val dataInputStream = DataInputStream(url.openStream())
+                        val fileOutputStream = FileOutputStream(file)
+                        val buffer = ByteArray(1024)
+                        while (dataInputStream.read(buffer) > 0) {
+                            fileOutputStream.write(buffer)
+                        }
+                        dataInputStream.close()
+                        fileOutputStream.close()
+                    } catch (e: MalformedURLException) {
+                        e.printStackTrace()
+                    } catch (e: IOException) {
+                        e.printStackTrace()
+                    }
+                    MyDialog(
+                        "Release Note",
+                        file.readText(),
+                        400, 300, false
+                    )
+                    file.delete()
+                } else {
+                    MyDialog(
+                        "Release Note",
+                        File("src/pers/gargantua/mine_sweep/Release Note.html").readText(),
+                        400, 300, false
+                    )
+                }
             }
         })
         addSeparator()
